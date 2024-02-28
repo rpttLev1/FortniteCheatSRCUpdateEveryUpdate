@@ -25,6 +25,6 @@ fixup:
     mov rcx, rdi
     mov rdi, [rcx + 16]
     jmp QWORD PTR [rcx + 8]
-RetSpoofStub ENDP
-     
-END
+RetSpoofStub ENDP 
+ 
+ END
